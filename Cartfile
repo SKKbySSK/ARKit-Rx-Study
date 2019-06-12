@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire"
+github "SwiftyJSON/SwiftyJSON"
+github "AudioKit/AudioKit"
+github "Moya/Moya" ~> 13.0
+github "ReactiveX/RxSwift" ~> 5.0
+github "RxSwiftCommunity/RxDataSources" ~> 4.0
+github "xmartlabs/XLPagerTabStrip" ~> 9.0
