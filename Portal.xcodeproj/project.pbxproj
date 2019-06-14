@@ -3,26 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7374696322AFF49600CBE2BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7374696222AFF49600CBE2BE /* AppDelegate.swift */; };
-		7374696522AFF49600CBE2BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7374696422AFF49600CBE2BE /* ViewController.swift */; };
-		7374696822AFF49600CBE2BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7374696622AFF49600CBE2BE /* Main.storyboard */; };
 		7374696A22AFF49700CBE2BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7374696922AFF49700CBE2BE /* Assets.xcassets */; };
 		7374696D22AFF49700CBE2BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7374696B22AFF49700CBE2BE /* LaunchScreen.storyboard */; };
+		73C4E59E22B11E5500578DEC /* PortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C4E59D22B11E5500578DEC /* PortalViewController.swift */; };
+		73C4E5A122B11E7100578DEC /* Portal.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73C4E5A022B11E7100578DEC /* Portal.xib */; };
+		73C4E5A422B11EC100578DEC /* ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C4E5A322B11EC100578DEC /* ARSCNView.swift */; };
+		73C4E5B322B11F3700578DEC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5A522B11F3700578DEC /* Alamofire.framework */; };
+		73C4E5B422B11F3700578DEC /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5A622B11F3700578DEC /* RxMoya.framework */; };
+		73C4E5B522B11F3700578DEC /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5A722B11F3700578DEC /* Result.framework */; };
+		73C4E5B622B11F3700578DEC /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5A822B11F3700578DEC /* ReactiveSwift.framework */; };
+		73C4E5B722B11F3700578DEC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5A922B11F3700578DEC /* RxSwift.framework */; };
+		73C4E5B822B11F3700578DEC /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5AA22B11F3700578DEC /* RxCocoa.framework */; };
+		73C4E5B922B11F3700578DEC /* ReactiveMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5AB22B11F3700578DEC /* ReactiveMoya.framework */; };
+		73C4E5BA22B11F3700578DEC /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5AC22B11F3700578DEC /* AudioKit.framework */; };
+		73C4E5BC22B11F3700578DEC /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5AE22B11F3700578DEC /* RxRelay.framework */; };
+		73C4E5BE22B11F3700578DEC /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5B022B11F3700578DEC /* SwiftyJSON.framework */; };
+		73C4E5BF22B11F3700578DEC /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5B122B11F3700578DEC /* Moya.framework */; };
+		73C4E5C022B11F3700578DEC /* AudioKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73C4E5B222B11F3700578DEC /* AudioKitUI.framework */; };
 		7DA43E82C761F6FC43731529 /* Pods_Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A54D34DE5CFD9745F450BF6F /* Pods_Portal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7374695F22AFF49600CBE2BE /* Portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7374696222AFF49600CBE2BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7374696422AFF49600CBE2BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7374696722AFF49600CBE2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7374696922AFF49700CBE2BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7374696C22AFF49700CBE2BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7374696E22AFF49700CBE2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C4E59D22B11E5500578DEC /* PortalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalViewController.swift; sourceTree = "<group>"; };
+		73C4E5A022B11E7100578DEC /* Portal.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Portal.xib; sourceTree = "<group>"; };
+		73C4E5A322B11EC100578DEC /* ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNView.swift; sourceTree = "<group>"; };
+		73C4E5A522B11F3700578DEC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		73C4E5A622B11F3700578DEC /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		73C4E5A722B11F3700578DEC /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		73C4E5A822B11F3700578DEC /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		73C4E5A922B11F3700578DEC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		73C4E5AA22B11F3700578DEC /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		73C4E5AB22B11F3700578DEC /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = Carthage/Build/iOS/ReactiveMoya.framework; sourceTree = "<group>"; };
+		73C4E5AC22B11F3700578DEC /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKit.framework; path = Carthage/Build/iOS/AudioKit.framework; sourceTree = "<group>"; };
+		73C4E5AD22B11F3700578DEC /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		73C4E5AE22B11F3700578DEC /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		73C4E5AF22B11F3700578DEC /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		73C4E5B022B11F3700578DEC /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		73C4E5B122B11F3700578DEC /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		73C4E5B222B11F3700578DEC /* AudioKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioKitUI.framework; path = Carthage/Build/iOS/AudioKitUI.framework; sourceTree = "<group>"; };
+		73C4E5C122B124A300578DEC /* Alamofire.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Alamofire.framework.dSYM; path = Carthage/Build/iOS/Alamofire.framework.dSYM; sourceTree = "<group>"; };
 		9C0B0152642E95F17C642999 /* Pods-Portal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portal.release.xcconfig"; path = "Target Support Files/Pods-Portal/Pods-Portal.release.xcconfig"; sourceTree = "<group>"; };
 		A54D34DE5CFD9745F450BF6F /* Pods_Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C0A95F9C7D41DF33030F41 /* Pods-Portal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Portal.debug.xcconfig"; path = "Target Support Files/Pods-Portal/Pods-Portal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -33,6 +62,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C4E5B322B11F3700578DEC /* Alamofire.framework in Frameworks */,
+				73C4E5B422B11F3700578DEC /* RxMoya.framework in Frameworks */,
+				73C4E5B522B11F3700578DEC /* Result.framework in Frameworks */,
+				73C4E5B622B11F3700578DEC /* ReactiveSwift.framework in Frameworks */,
+				73C4E5B722B11F3700578DEC /* RxSwift.framework in Frameworks */,
+				73C4E5B822B11F3700578DEC /* RxCocoa.framework in Frameworks */,
+				73C4E5B922B11F3700578DEC /* ReactiveMoya.framework in Frameworks */,
+				73C4E5BA22B11F3700578DEC /* AudioKit.framework in Frameworks */,
+				73C4E5BC22B11F3700578DEC /* RxRelay.framework in Frameworks */,
+				73C4E5BE22B11F3700578DEC /* SwiftyJSON.framework in Frameworks */,
+				73C4E5BF22B11F3700578DEC /* Moya.framework in Frameworks */,
+				73C4E5C022B11F3700578DEC /* AudioKitUI.framework in Frameworks */,
 				7DA43E82C761F6FC43731529 /* Pods_Portal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,7 +87,6 @@
 				D8C0A95F9C7D41DF33030F41 /* Pods-Portal.debug.xcconfig */,
 				9C0B0152642E95F17C642999 /* Pods-Portal.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -71,9 +111,10 @@
 		7374696122AFF49600CBE2BE /* Portal */ = {
 			isa = PBXGroup;
 			children = (
+				73B86CE822B2A0030097AE79 /* Scenes */,
+				73C4E5A222B11EB100578DEC /* Extensions */,
+				73C4E59C22B11E0E00578DEC /* ViewControllers */,
 				7374696222AFF49600CBE2BE /* AppDelegate.swift */,
-				7374696422AFF49600CBE2BE /* ViewController.swift */,
-				7374696622AFF49600CBE2BE /* Main.storyboard */,
 				7374696922AFF49700CBE2BE /* Assets.xcassets */,
 				7374696B22AFF49700CBE2BE /* LaunchScreen.storyboard */,
 				7374696E22AFF49700CBE2BE /* Info.plist */,
@@ -81,9 +122,56 @@
 			path = Portal;
 			sourceTree = "<group>";
 		};
+		73B86CE822B2A0030097AE79 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		73C4E59C22B11E0E00578DEC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				73C4E59F22B11E5F00578DEC /* Xibs */,
+				73C4E59D22B11E5500578DEC /* PortalViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		73C4E59F22B11E5F00578DEC /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				73C4E5A022B11E7100578DEC /* Portal.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		73C4E5A222B11EB100578DEC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				73C4E5A322B11EC100578DEC /* ARSCNView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		D87BB5EAF4003DA14D06CE0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				73C4E5C122B124A300578DEC /* Alamofire.framework.dSYM */,
+				73C4E5A522B11F3700578DEC /* Alamofire.framework */,
+				73C4E5AC22B11F3700578DEC /* AudioKit.framework */,
+				73C4E5B222B11F3700578DEC /* AudioKitUI.framework */,
+				73C4E5B122B11F3700578DEC /* Moya.framework */,
+				73C4E5AB22B11F3700578DEC /* ReactiveMoya.framework */,
+				73C4E5A822B11F3700578DEC /* ReactiveSwift.framework */,
+				73C4E5A722B11F3700578DEC /* Result.framework */,
+				73C4E5AD22B11F3700578DEC /* RxBlocking.framework */,
+				73C4E5AA22B11F3700578DEC /* RxCocoa.framework */,
+				73C4E5A622B11F3700578DEC /* RxMoya.framework */,
+				73C4E5AE22B11F3700578DEC /* RxRelay.framework */,
+				73C4E5A922B11F3700578DEC /* RxSwift.framework */,
+				73C4E5AF22B11F3700578DEC /* RxTest.framework */,
+				73C4E5B022B11F3700578DEC /* SwiftyJSON.framework */,
 				A54D34DE5CFD9745F450BF6F /* Pods_Portal.framework */,
 			);
 			name = Frameworks;
@@ -101,6 +189,7 @@
 				7374695C22AFF49600CBE2BE /* Frameworks */,
 				7374695D22AFF49600CBE2BE /* Resources */,
 				7FB36906B6A6606B2E4394F4 /* [CP] Embed Pods Frameworks */,
+				73C4E5C322B1250800578DEC /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -149,15 +238,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C4E5A122B11E7100578DEC /* Portal.xib in Resources */,
 				7374696D22AFF49700CBE2BE /* LaunchScreen.storyboard in Resources */,
 				7374696A22AFF49700CBE2BE /* Assets.xcassets in Resources */,
-				7374696822AFF49600CBE2BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		73C4E5C322B1250800578DEC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AudioKit.framework",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+		};
 		7FB36906B6A6606B2E4394F4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,22 +322,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7374696522AFF49600CBE2BE /* ViewController.swift in Sources */,
+				73C4E59E22B11E5500578DEC /* PortalViewController.swift in Sources */,
 				7374696322AFF49600CBE2BE /* AppDelegate.swift in Sources */,
+				73C4E5A422B11EC100578DEC /* ARSCNView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7374696622AFF49600CBE2BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7374696722AFF49600CBE2BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7374696B22AFF49700CBE2BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,6 +400,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -343,6 +455,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -354,6 +467,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24GETZ4LG8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Portal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -373,6 +490,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24GETZ4LG8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Portal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
